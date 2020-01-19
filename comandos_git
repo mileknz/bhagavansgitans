@@ -1,0 +1,34 @@
+git init: inicializa um novo repositório no diretório no qual o comando é executado;
+
+git clone: clona um repositório remoto para o diretório local;
+    git clone https://<remote>/<user>/<repo>
+    git clone https://www.github.com/mileknz/my-repo
+
+git status: comando básico para ver o status do repositório atual;
+
+git add: adiciona arquivos modificados ou criados para stage (esperando commit);
+    git add file, onde file é um arquivo criado ou modificado;
+    git add * ou git add . para adicionar todos os arquivos;
+
+git commit: commita o que está em stage [commit = explicita as mudanças atuais como um determinado 'step'];
+    git commit -m "Commit message";
+    shortcut para adicionar em stage e commitar:
+        git commit -am "Commit message", -a adiciona os arquivos para stage e commita;
+
+git push: envia os últimos commits para o remote repository [github, bitbucket, etc]
+
+------------------
+% novo repositorio
+git init (repositorio vai ter nome do diretorio que to)
+
+
+git add . / filename
+git commit -m "comentario"
+git push
+
+git branch nome_new_branch
+git checkout branch_destino
+git merge origem
+
+% no meu mac
+git clone https://github.com/mileknz/gitexemplo.git
